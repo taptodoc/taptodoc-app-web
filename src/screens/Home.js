@@ -11,7 +11,7 @@ const FinalHome = () => {
           <div className="text1">Ask our bot</div>
         </div>
 
-        <div className="login">
+        <div className="signin">
           <img className="hamburger-icon" alt="" src="../media/images/hamburger.svg" />
           <button className="frame">
             <img className="signinicon" alt="" src="../media/images/signinicon.svg" />

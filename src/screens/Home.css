@@ -109,11 +109,11 @@
   animation: 1s ease 0s infinite normal none jello-horizontal;
   opacity: 1;
 }
-.login,
+.signin,
 .navbar {
   position: absolute;
 }
-.login {
+.signin {
   top: 0.54px;
   right: 14.8px;
   border-radius: 48px;
