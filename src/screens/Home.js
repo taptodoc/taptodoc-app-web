@@ -1,4 +1,4 @@
-import "./FinalHome.css";
+import "./Home.css";
 
 const FinalHome = () => {
   return (
@@ -12,9 +12,9 @@ const FinalHome = () => {
         </div>
 
         <div className="login">
-          <img className="hamburger-icon" alt="" src="../hamburger.svg" />
+          <img className="hamburger-icon" alt="" src="../media/images/hamburger.svg" />
           <button className="frame">
-            <img className="signinicon" alt="" src="../signinicon.svg" />
+            <img className="signinicon" alt="" src="../media/images/signinicon.svg" />
 
           </button>
         </div>
@@ -22,14 +22,14 @@ const FinalHome = () => {
       <div className="footer">
         <div className="tap2doc-all-rights">{`© 2023 Tap2Doc. All Rights Reserved.. `}</div>
         <div className="social-media">
-          <img className="footer-icon" alt="" src="../facebook@2x.png" />
-          <img className="footer-icon" alt="" src="../instagram@2x.png" />
-          <img className="footer-icon" alt="" src="../linkedin@2x.png" />
-          <img className="footer-icon" alt="" src="../twitter@2x.png" />
+          <img className="footer-icon" alt="" src="../media/images/facebook@2x.png" />
+          <img className="footer-icon" alt="" src="../media/images/instagram@2x.png" />
+          <img className="footer-icon" alt="" src="../media/images/linkedin@2x.png" />
+          <img className="footer-icon" alt="" src="../media/images/twitter@2x.png" />
         </div>
 
         <div className="support-and-resources">
-          <img className="uparrow-icon" alt="" src="../uparrow.svg" />
+          <img className="uparrow-icon" alt="" src="../media/images/uparrow.svg" />
           <div className="support-resources">{`Support & resources`}</div>
         </div>
       </div>
@@ -39,13 +39,13 @@ const FinalHome = () => {
             <div className="rectangle-wrapper">
               <div className="group-child" />
             </div>
-            <img className="people-icon" alt="" src="../people.png" />
+            <img className="people-icon" alt="" src="../media/images/people.png" />
           </button>
           <button className="group-container">
             <div className="rectangle-wrapper">
               <div className="group-child" />
             </div>
-            <img className="people-icon" alt="" src="../doctor.png" />
+            <img className="people-icon" alt="" src="../media/images/doctor.png" />
           </button>
           <button className="group-parent1">
             <div className="rectangle-wrapper">
@@ -56,7 +56,7 @@ const FinalHome = () => {
                 <div className="group-child" />
               </div>
             </div>
-            <img className="people-icon" alt="" src="../hospital.png" />
+            <img className="people-icon" alt="" src="../media/images/hospital.png" />
           </button>
         </div>
       </div>
@@ -127,7 +127,7 @@ const FinalHome = () => {
           <div className="interactive-mode">Interactive mode</div>
         </button>
       </div>
-      <img className="logo-icon" alt="" src="../logo.png" />
+      <img className="logo-icon" alt="" src="../media/images/logo.png" />
       <div className="doctorhome1-icon"/>
     </div>
   );

@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import FinalHome from "./pages/FinalHome";
+import Home from "./screens/Home";
 import { useEffect } from "react";
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<FinalHome />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }

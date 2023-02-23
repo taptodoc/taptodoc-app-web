@@ -561,7 +561,7 @@
   left: 485px;
   width: 49px;
   height: 49px;
-  background-image: url(../../public/searchhome1@3x.png);
+  background-image: url(../../public/media/images/searchhome1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -645,22 +645,22 @@
 @keyframes changeImage{
 
   0%{
-    background-image: url(../doctorhome1.png);
+    background-image: url(../../public/media/images/doctorhome1.png);
     
   }
   25%{
-    background-image: url(../doctorHome2.png);
+    background-image: url(../../public/media/images/doctorHome2.png);
     
   }
   50%{
-    background-image: url(../doctorHome3.png);
+    background-image: url(../../public/media/images/doctorHome3.png);
 
   }
   75%{
-    background-image: url(../doctorHome4.png);
+    background-image: url(../../public/media/images/doctorHome4.png);
   }
   100%{
-    background-image: url(../doctorHome5.png);
+    background-image: url(../../public/media/images/doctorHome5.png);
   }
   
 
