@@ -1,37 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Podkova:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 body {
-  @apply leading-[normal] m-0;
+  margin: 0;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --normal2: Mulish;
+  --font-podkova: Podkova;
+  --font-lato: Lato;
 
-@keyframes slide-in-left {
-  0% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
+  /* font sizes */
+  --new22-size: 13px;
+  --font-size-2xs: 14px;
+  --text-web-size: 16px;
+  --font-size-sm: 20px;
+  --normal2-size: 24px;
+  --heading-size: 64px;
 
-@keyframes scale-up {
-  0% {
-    transform: scale(0.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+  /* Colors */
+  --color-white: #fff;
+  --color-navy: #000080;
+  --color-black: #000;
+  --color-aliceblue: #dfeef4;
+  --color-midnightblue: #211572;
+  --black-200: #ddd;
+  --color-dimgray: #676767;
+
+  /* Paddings */
+  --padding-md: 4px;
+
+  /* border radiuses */
+  --br-sm: 10px;
+  --br-md: 20px;
+  --br-lg: 40px;
+
+  /* Effects */
+  --dp-dark-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16),
+    0px 4px 8px rgba(38, 50, 56, 0.08);
 }
