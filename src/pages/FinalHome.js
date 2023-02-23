@@ -1,0 +1,136 @@
+import "./FinalHome.css";
+
+const FinalHome = () => {
+  return (
+    <div className="final-home">
+      <div className="backgroundcolor" />
+      <div className="navbar">
+        <div className="menu">
+
+          <div className="text">Menu</div>
+          <div className="text1">Ask our bot</div>
+        </div>
+
+        <div className="login">
+          <img className="hamburger-icon" alt="" src="../hamburger.svg" />
+          <button className="frame">
+            <img className="signinicon" alt="" src="../signinicon.svg" />
+
+          </button>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="tap2doc-all-rights">{`© 2023 Tap2Doc. All Rights Reserved.. `}</div>
+        <div className="social-media">
+          <img className="footer-icon" alt="" src="../facebook@2x.png" />
+          <img className="footer-icon" alt="" src="../instagram@2x.png" />
+          <img className="footer-icon" alt="" src="../linkedin@2x.png" />
+          <img className="footer-icon" alt="" src="../twitter@2x.png" />
+        </div>
+
+        <div className="support-and-resources">
+          <img className="uparrow-icon" alt="" src="../uparrow.svg" />
+          <div className="support-resources">{`Support & resources`}</div>
+        </div>
+      </div>
+      <div className="navigations-icons">
+        <div className="group-parent">
+          <button className="group-container">
+            <div className="rectangle-wrapper">
+              <div className="group-child" />
+            </div>
+            <img className="people-icon" alt="" src="../people.png" />
+          </button>
+          <button className="group-container">
+            <div className="rectangle-wrapper">
+              <div className="group-child" />
+            </div>
+            <img className="people-icon" alt="" src="../doctor.png" />
+          </button>
+          <button className="group-parent1">
+            <div className="rectangle-wrapper">
+              <b className="patient">Patient</b>
+              <b className="doctor">Doctor</b>
+              <b className="facility">Facility</b>
+              <div className="rectangle-wrapper">
+                <div className="group-child" />
+              </div>
+            </div>
+            <img className="people-icon" alt="" src="../hospital.png" />
+          </button>
+        </div>
+      </div>
+      <div className="popular-searches">
+        <div className="border-popular-searches" />
+        <div className="popular-searches1">
+          <p className="popular">Popular</p>
+          <p className="searches">Searches</p>
+        </div>
+        <div className="component-59">
+          <div className="rectangle-parent">
+            <div className="rectangle-div" />
+            <div className="group-div">
+              <div className="rectangle-group">
+                <div className="group-child1" />
+                <div className="ulcer">Ulcer</div>
+              </div>
+              <div className="rectangle-parent1">
+                <div className="group-child1" />
+                <div className="implant">Implant</div>
+              </div>
+              <div className="rectangle-parent2">
+                <div className="group-child1" />
+                <div className="surgery">Surgery</div>
+              </div>
+              <div className="rectangle-parent3">
+                <div className="group-child1" />
+                <div className="neuro">Neuro</div>
+              </div>
+              <div className="rectangle-parent4">
+                <div className="group-child1" />
+                <div className="cancer">Cancer</div>
+              </div>
+              <div className="rectangle-parent5">
+                <div className="group-child1" />
+                <div className="diabetes">Diabetes</div>
+              </div>
+              <div className="rectangle-parent6">
+                <div className="group-child1" />
+                <div className="heart-disease">
+                  <p className="popular">Heart</p>
+                  <p className="searches">disease</p>
+                </div>
+              </div>
+              <div className="rectangle-parent7">
+                <div className="group-child1" />
+                <div className="thyroid">Thyroid</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button className="get-started">
+        <div className="sign-in">Get Started</div>
+      </button>
+      <div className="discover-quality-healthcare-container">
+        <p className="popular">{`Discover Quality `}</p>
+        <p className="searches">{`Healthcare `}</p>
+      </div>
+      <div className="search-parent">
+        <div className="search">
+          <div className="question-parent">
+            <input className="question" type="text" placeholder="Question" />
+            <button className="searchhome" />
+          </div>
+        </div>
+        <button className="interactive-mode-wrapper">
+          <div className="interactive-mode">Interactive mode</div>
+        </button>
+      </div>
+      <img className="logo-icon" alt="" src="../logo.png" />
+      <div className="doctorhome1-icon"/>
+    </div>
+  );
+};
+
+export default FinalHome;
