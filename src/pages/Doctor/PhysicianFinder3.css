@@ -1,0 +1,417 @@
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.backgroundcolor8 {
+  position: absolute;
+  height: 100%;
+  width: 100.56%;
+  top: 0;
+  right: -0.56%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #dfeef4, #fff);
+}
+.tap2doc-all-rights8 {
+  position: absolute;
+  bottom: 10.06px;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.facebook-icon8,
+.instagram-icon8,
+.linkedin-icon8,
+.twitter-icon8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.instagram-icon8,
+.linkedin-icon8,
+.twitter-icon8 {
+  left: 72px;
+}
+.linkedin-icon8,
+.twitter-icon8 {
+  left: 144px;
+}
+.twitter-icon8 {
+  left: 216px;
+}
+.social-media8 {
+  position: absolute;
+  bottom: 0.06px;
+  left: calc(50% - 85.49px);
+  width: 256px;
+  height: 40px;
+}
+.uparrow-icon8 {
+  position: absolute;
+  right: 0;
+  bottom: 5.35px;
+  width: 14px;
+  height: 8.65px;
+}
+.support-resources8 {
+  position: absolute;
+  right: 23px;
+  bottom: 0;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.support-and-resources8 {
+  position: absolute;
+  right: -0.01px;
+  bottom: 10.06px;
+  width: 155px;
+  height: 20px;
+}
+.footer8 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 719.99px);
+  width: 1438.99px;
+  height: 37.06px;
+  text-align: left;
+  font-family: var(--font-lato);
+}
+.image-14,
+.logo7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 78px;
+  height: 60px;
+  background-image: url(../../../public/usericon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image-14:hover {
+  animation: 1s ease 0s 2 normal none jello-horizontal;
+  opacity: 1;
+}
+.logo7 {
+  width: 11.23%;
+  top: 10px;
+  right: 88.77%;
+  left: 0;
+  height: 46px;
+  background-image: url(../../../public/logo.png);
+}
+.group-child65 {
+  border-radius: var(--br-md);
+  background-color: var(--color-aliceblue);
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+}
+.doctor-4-18,
+.doctor1-inner6,
+.group-child65 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+}
+.doctor-4-18 {
+  top: 10.5px;
+  left: 10.46px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.doctor17,
+.examine7,
+.hospital17 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+}
+.doctor17:hover {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.examine7,
+.hospital17 {
+  left: 162px;
+}
+.examine7:hover,
+.hospital17:hover {
+  animation: 1s ease 0s 2 normal none pulsate;
+  opacity: 1;
+}
+.hospital17 {
+  left: 324px;
+}
+.navigation17 {
+  position: relative;
+  width: 394px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.patient-navigation7 {
+  position: absolute;
+  width: 30.84%;
+  top: 0;
+  right: 36.32%;
+  left: 32.84%;
+  border-radius: var(--br-md);
+  background-color: var(--color-honeydew-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.navbar8 {
+  position: absolute;
+  top: 24px;
+  right: 33px;
+  width: 1413px;
+  height: 90px;
+}
+.appointment-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-mediumblue);
+  width: 135px;
+  height: 28px;
+}
+.get-appintment {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  font-size: var(--normal5-size);
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--white);
+  text-align: right;
+}
+.appointment {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 340px;
+  left: 276px;
+  width: 135px;
+  height: 28px;
+}
+.submit-a-query1 {
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  font-size: var(--normal5-size);
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--white);
+  text-align: right;
+}
+.query,
+.submitquerry {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 135px;
+  height: 28px;
+}
+.query {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 340px;
+  left: 427px;
+}
+.physician-finder-3-child,
+.physician-finder-3-item,
+.pysicianprofile {
+  position: absolute;
+  width: 42.46%;
+  right: 53.16%;
+  left: 4.39%;
+  border-radius: var(--br-md);
+  background-color: var(--color-aliceblue);
+}
+.pysicianprofile {
+  border: 0;
+  height: 14.74%;
+  top: 39.91%;
+  bottom: 45.34%;
+}
+.physician-finder-3-child,
+.physician-finder-3-item {
+  height: 8.79%;
+  top: 61.55%;
+  bottom: 29.66%;
+}
+.physician-finder-3-item {
+  top: 75.09%;
+  bottom: 16.12%;
+}
+.physician-profile {
+  position: absolute;
+  top: 36.98%;
+  left: 4.8%;
+}
+.facilities1,
+.specialities2 {
+  position: absolute;
+  top: 58.28%;
+  left: 4.73%;
+}
+.facilities1 {
+  top: 72.24%;
+  left: 4.8%;
+}
+.physician-finder-3-inner {
+  position: absolute;
+  top: 211px;
+  left: 277px;
+  width: 94px;
+  height: 24px;
+}
+.john-doe {
+  position: absolute;
+  top: 186px;
+  left: 278px;
+  font-size: var(--test6-size);
+}
+.exp,
+.general-plastic-surgery1,
+.park-ave-san1 {
+  position: absolute;
+  top: 272px;
+  left: 280px;
+  font-family: var(--mobile1);
+  text-align: left;
+}
+.exp,
+.general-plastic-surgery1 {
+  top: 294px;
+}
+.exp {
+  top: 315px;
+}
+.mdicards-heart-icon7 {
+  position: absolute;
+  top: 213px;
+  left: 576px;
+  width: 15px;
+  height: 15px;
+}
+.usman-yousaf-sakqlf78kvo-unspl-icon2 {
+  position: absolute;
+  top: 186px;
+  left: 63px;
+  border-radius: 50px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.badges1,
+.reviews {
+  position: absolute;
+  height: 18.45%;
+  width: 42.46%;
+  top: 39.83%;
+  right: 5.76%;
+  bottom: 41.72%;
+  left: 51.78%;
+  border-radius: var(--br-md);
+  background-color: var(--color-honeydew-200);
+}
+.badges1 {
+  top: 16.55%;
+  right: 5.69%;
+  bottom: 65%;
+  left: 51.85%;
+}
+.badges2,
+.reviews1 {
+  position: absolute;
+  top: 36.64%;
+  left: 52.61%;
+}
+.badges2 {
+  top: 14.31%;
+  left: 52.67%;
+}
+.chatbars-1-icon6 {
+  position: absolute;
+  top: calc(50% - 163px);
+  right: 6px;
+  width: 45px;
+  height: 152.15px;
+  object-fit: cover;
+}
+.physician-finder-3 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1110px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--normal5-size);
+  color: var(--color-black);
+  font-family: var(--font-be-vietnam-pro);
+}
