@@ -1,0 +1,436 @@
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.backgroundcolor1 {
+  position: absolute;
+  height: 100%;
+  width: 100.56%;
+  top: 0;
+  right: -0.56%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #dfeef4, #fff);
+}
+.tap2doc-all-rights1 {
+  position: absolute;
+  bottom: 10.06px;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.facebook-icon1,
+.instagram-icon1,
+.linkedin-icon1,
+.twitter-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.instagram-icon1,
+.linkedin-icon1,
+.twitter-icon1 {
+  left: 72px;
+}
+.linkedin-icon1,
+.twitter-icon1 {
+  left: 144px;
+}
+.twitter-icon1 {
+  left: 216px;
+}
+.social-media1 {
+  position: absolute;
+  bottom: 0.06px;
+  left: calc(50% - 85.49px);
+  width: 256px;
+  height: 40px;
+}
+.uparrow-icon1 {
+  position: absolute;
+  right: 0;
+  bottom: 5.35px;
+  width: 14px;
+  height: 8.65px;
+}
+.support-resources1 {
+  position: absolute;
+  right: 23px;
+  bottom: 0;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.support-and-resources1 {
+  position: absolute;
+  right: -0.01px;
+  bottom: 10.06px;
+  width: 155px;
+  height: 20px;
+}
+.footer1 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 719.49px);
+  width: 1438.99px;
+  height: 37.06px;
+  font-family: var(--font-lato);
+}
+.logo,
+.usericon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.usericon {
+  width: 5.42%;
+  top: 15px;
+  right: 0;
+  left: 94.58%;
+  height: 60px;
+  background-image: url(../../../public/usericon.png);
+}
+.usericon:hover {
+  animation: 1s ease 0s 2 normal none jello-horizontal;
+  opacity: 1;
+}
+.logo {
+  top: 14px;
+  left: 0;
+  width: 158.66px;
+  height: 46px;
+  background-image: url(../../../public/logo.png);
+}
+.doctor1,
+.doctor1-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+}
+.doctor1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.doctor1:hover {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.examination-1-icon {
+  position: absolute;
+  top: 10.5px;
+  left: 10.46px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.examine {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 162px;
+}
+.examine:hover,
+.hospital1:hover {
+  animation: 1s ease 0s 2 normal none pulsate;
+  opacity: 1;
+}
+.examine,
+.hospital1,
+.treatment-child {
+  position: absolute;
+  top: 0;
+  width: 70px;
+  height: 70px;
+}
+.treatment-child {
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-aliceblue);
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+}
+.hospital1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 324px;
+}
+.navigation1 {
+  position: relative;
+  width: 394px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.patient-navigation {
+  position: absolute;
+  width: 30.29%;
+  top: 0;
+  right: 34.41%;
+  left: 35.3%;
+  border-radius: var(--br-md);
+  background-color: var(--color-honeydew-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.navbar1 {
+  position: absolute;
+  width: 97.16%;
+  top: 8px;
+  right: 1.42%;
+  left: 1.42%;
+  height: 90px;
+}
+.facility-finder-3-child,
+.group-child11 {
+  position: absolute;
+  border-radius: var(--br-md);
+}
+.facility-finder-3-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-aliceblue);
+  height: 11.99%;
+  width: 9.45%;
+  top: 17.64%;
+  right: 85.48%;
+  bottom: 70.38%;
+  left: 5.06%;
+}
+.facility-finder-3-child:hover {
+  animation: 1s ease 0s 2 normal none scale-up;
+  opacity: 1;
+}
+.group-child11 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mediumblue);
+}
+.submit-a-query {
+  position: absolute;
+  top: 17.86%;
+  left: 13.33%;
+  font-size: var(--normal5-size);
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--white);
+  text-align: right;
+}
+.rectangle-parent8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 2.4%;
+  width: 9.12%;
+  top: 27.4%;
+  right: 72.52%;
+  bottom: 70.21%;
+  left: 18.37%;
+}
+.facility-finder-3-item {
+  position: absolute;
+  height: 17.89%;
+  width: 41.8%;
+  top: 16.18%;
+  right: 7.43%;
+  bottom: 65.92%;
+  left: 50.78%;
+  border-radius: var(--br-md);
+  background-color: var(--color-honeydew-200);
+}
+.facility-finder-3-child1,
+.facility-finder-3-child2,
+.facility-finder-3-child3,
+.facility-finder-3-child4,
+.facility-finder-3-inner {
+  position: absolute;
+  height: 14.64%;
+  width: 41.8%;
+  top: 39.98%;
+  right: 54.15%;
+  bottom: 45.38%;
+  left: 4.05%;
+  border-radius: var(--br-md);
+  background-color: var(--color-aliceblue);
+}
+.facility-finder-3-child1,
+.facility-finder-3-child2,
+.facility-finder-3-child3,
+.facility-finder-3-child4 {
+  top: 40.75%;
+  right: 8.31%;
+  bottom: 44.61%;
+  left: 49.9%;
+}
+.facility-finder-3-child2,
+.facility-finder-3-child3,
+.facility-finder-3-child4 {
+  top: 61.9%;
+  bottom: 23.46%;
+}
+.facility-finder-3-child3,
+.facility-finder-3-child4 {
+  height: 8.73%;
+  top: 61.47%;
+  right: 54.15%;
+  bottom: 29.79%;
+  left: 4.05%;
+}
+.facility-finder-3-child4 {
+  height: 9.33%;
+  top: 78.08%;
+  right: 54.63%;
+  bottom: 12.59%;
+  left: 3.58%;
+}
+.badges {
+  position: absolute;
+  top: 13.36%;
+  left: 50.71%;
+  text-align: right;
+}
+.facility-profile {
+  position: absolute;
+  top: 37.07%;
+  left: 4.46%;
+}
+.equipments,
+.physicians {
+  position: absolute;
+  top: 37.84%;
+  left: 50.3%;
+}
+.physicians {
+  top: 58.99%;
+  left: 50.57%;
+}
+.services,
+.specialities {
+  position: absolute;
+  top: 58.22%;
+  left: 4.39%;
+  text-align: right;
+}
+.services {
+  top: 75.26%;
+  left: 4.25%;
+}
+.group-icon {
+  position: absolute;
+  height: 2.05%;
+  width: 6.35%;
+  top: 20.29%;
+  right: 75.29%;
+  bottom: 77.65%;
+  left: 18.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.childrens-hospital {
+  position: absolute;
+  top: 18.15%;
+  left: 18.64%;
+  font-size: var(--test6-size);
+  text-align: right;
+}
+.general-plastic-surgery,
+.park-ave-san {
+  position: absolute;
+  top: 23.63%;
+  left: 18.64%;
+  font-family: var(--mobile1);
+}
+.general-plastic-surgery {
+  top: 25.51%;
+}
+.mdicards-heart-icon {
+  position: absolute;
+  top: 217px;
+  left: 572px;
+  width: 15px;
+  height: 15px;
+}
+.facility-finder-3 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--normal5-size);
+  color: var(--color-black);
+  font-family: var(--font-be-vietnam-pro);
+}
