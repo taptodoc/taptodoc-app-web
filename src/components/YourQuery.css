@@ -1,3 +1,4 @@
+
 .message,
 .subject {
   border: 0;
@@ -79,8 +80,8 @@
   max-width: 100%;
   max-height: 100%;
 }
-
-cursor: pointer;
+.close-icon {
+  cursor: pointer;
   border: 0;
   padding: 0;
   position: absolute;
@@ -94,7 +95,7 @@ cursor: pointer;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-
+}
 .your-query {
   position: relative;
   border-radius: var(--br-md);

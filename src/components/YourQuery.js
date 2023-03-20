@@ -11,7 +11,7 @@ const YourQuery = ({ onClose }) => {
       <div className="send">Send</div>
       <img className="send-icon" alt="" src="../sendicon.svg" />
       <div className="your-query1">Your Query</div>
-         <button className="close-icon" alt="" onClick={onClose}/>
+      <button className="close-icon" alt="" onClick={onClose}/>
     </div>
   );
 };
